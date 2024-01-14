@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Search</title>
+	<link rel="stylesheet" href="css/app.min.css">
+</head>
+<body>
+
+<div style="width: 377px; margin: 25px">
+
+	<div class="component--search">
+		<form action="">
+			<div class="search-icon">
+				<img src="img/search.svg" alt="">
+			</div>
+			<input type="text" placeholder="Bir şeyler Ara...">
+		</form>
+		<h6>Popüler Aramalar</h6>
+		<ul>
+			<li>
+				<a href="#">Hava Yolu Taşımacılığı</a>
+			</li>
+			<li>
+				<a href="#">Fenerbahçe Maçı</a>
+			</li>
+			<li class="active">
+				<a href="#">Gazze İşgal Altında</a>
+			</li>
+			<li>
+				<a href="#">Merkez Bankası Kararı</a>
+			</li>
+			<li>
+				<a href="#">En Çok Satan Kitap</a>
+			</li>
+			<li>
+				<a href="#">Banka Komisyonları</a>
+			</li>
+		</ul>
+	</div>
+
+</div>
+
+<div style="width: 656px; margin: 25px">
+	<div class="component--filter-search">
+		<form action="">
+			<div class="input">
+				<div class="search-icon">
+					<img src="img/search.svg" alt="">
+				</div>
+				<input type="text" placeholder="Bir şeyler Ara...">
+			</div>
+			<ul>
+				<li>
+					<label>
+						<input type="radio" checked name="type" value="project">
+						<span class="text">Projeler</span>
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="radio" name="type" value="image">
+						<span class="text">Fotoğraflar</span>
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="radio" name="type" value="people">
+						<span class="text">Dosyalar</span>
+					</label>
+				</li>
+			</ul>
+		</form>
+	</div>
+</div>
+
+<div style="width: 468px; margin: 25px">
+	<div class="component--filter">
+		<form action="">
+			<ul>
+				<li>
+					<div class="key">ÜLKE</div>
+					<div class="value">
+						<select name="" id="">
+							<option value="">İsveç</option>
+							<option value="">Türkiye</option>
+						</select>
+					</div>
+				</li>
+				<li>
+					<div class="key">ŞEHİR</div>
+					<div class="value">
+						<input type="text" value="Stokholm">
+					</div>
+				</li>
+				<li class="filter-button">
+					<a href="#">
+						İptal
+					</a>
+					<button type="submit">Aramayı Başlat</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+</div>
+
+<script src="js/app.min.js"></script>
+
+</body>
+</html>
